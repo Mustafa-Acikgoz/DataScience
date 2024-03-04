@@ -18,8 +18,13 @@ def holiday_cost(city, num_nights, rental_days):
 
 loop_ = True
 #"{city":[Hotel Day Rate, Flight,Car Rental Day Rate]}
+
 cities = {"London": [100, 40, 25], "Paris": [120, 50, 45]}
 #Available cities
+
+cities = {"London": [100, 45, 25], "Paris": [120, 50, 45]}
+
+
 print("Available cities:")
 for city_ in cities.keys():
     print(city_)
